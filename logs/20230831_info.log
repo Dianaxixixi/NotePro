@@ -1,0 +1,336 @@
+[INFO]caseLogMethod.py:75-16:07:52.059 >> 便签新增 
+[INFO]test_level1.py:28-16:13:25.113 >> testCase01_major 
+[INFO]test_level1.py:29-16:13:25.306 >> 上传/更新便签信息主体 
+[INFO]test_level1.py:30-16:13:25.319 >> STEP:上传/更新便签信息主体 
+[INFO]test_level1.py:28-16:17:08.968 >> testCase01_major 
+[INFO]test_level1.py:29-16:17:09.177 >> 上传/更新便签信息主体 
+[INFO]test_level1.py:30-16:17:09.184 >> STEP:上传/更新便签信息主体 
+[INFO]test_level1.py:40-16:17:09.189 >> url:http://note-api.wps.cn/v3/notesvr/set/noteinfo 
+[INFO]test_level1.py:28-16:18:30.821 >> testCase01_major 
+[INFO]test_level1.py:29-16:18:31.042 >> 上传/更新便签信息主体 
+[INFO]test_level1.py:30-16:18:31.051 >> STEP:上传/更新便签信息主体 
+[INFO]test_level1.py:40-16:18:31.059 >> url:http://note-api.wps.cn/v3/notesvr/set/noteinfo 
+[INFO]test_level1.py:28-16:20:00.738 >> testCase01_major 
+[INFO]test_level1.py:29-16:20:00.938 >> 上传/更新便签信息主体 
+[INFO]test_level1.py:30-16:20:00.945 >> STEP:上传/更新便签信息主体 
+[INFO]test_level1.py:40-16:20:00.952 >> url:http://note-api.wps.cn/v3/notesvr/set/noteinfo 
+[INFO]test_level1.py:41-16:20:00.960 >> headers: {"Content-Type": "application/json", "X-user-key": "229478081", "Cookie": "wps_sid=V02SkIJL_aWyToRT_5-ELMLvcJ1PC9c00a9f842c000dad8ec1"} 
+[INFO]test_level1.py:28-16:21:21.688 >> testCase01_major 
+[INFO]test_level1.py:29-16:21:21.863 >> 上传/更新便签信息主体 
+[INFO]test_level1.py:30-16:21:21.870 >> STEP:上传/更新便签信息主体 
+[INFO]test_level1.py:40-16:21:21.875 >> url:http://note-api.wps.cn/v3/notesvr/set/noteinfo 
+[INFO]test_level1.py:41-16:21:21.881 >> headers: {"Content-Type": "application/json", "X-user-key": "229478081", "Cookie": "wps_sid=V02SkIJL_aWyToRT_5-ELMLvcJ1PC9c00a9f842c000dad8ec1"} 
+[INFO]test_level1.py:42-16:21:21.888 >> body: {"noteId": "1693470081875_test_noteId"} 
+[INFO]test_level1.py:28-16:25:23.566 >> testCase01_major 
+[INFO]test_level1.py:29-16:25:23.762 >> 上传/更新便签信息主体 
+[INFO]test_level1.py:30-16:25:23.771 >> STEP:上传/更新便签信息主体 
+[INFO]test_level1.py:40-16:25:23.779 >> url:http://note-api.wps.cn/v3/notesvr/set/noteinfo 
+[INFO]test_level1.py:41-16:25:23.785 >> headers: {"Content-Type": "application/json", "X-user-key": "229478081", "Cookie": "wps_sid=V02SkIJL_aWyToRT_5-ELMLvcJ1PC9c00a9f842c000dad8ec1"} 
+[INFO]test_level1.py:42-16:25:23.792 >> body: {"noteId": "1693470323779_test_noteId"} 
+[INFO]test_level1.py:44-16:25:24.009 >> res code: 200 
+[INFO]test_level1.py:45-16:25:24.019 >> res body: {"responseTime":38,"infoVersion":1,"infoUpdateTime":1693470324029} 
+[INFO]test_level2.py:28-16:36:05.190 >> testCase01_major 
+[INFO]test_level2.py:29-16:36:05.371 >> 上传/更新便签信息主体 
+[INFO]test_level2.py:30-16:36:05.377 >> STEP:上传/更新便签信息主体 
+[INFO]test_level2.py:40-16:36:05.383 >> url:http://note-api.wps.cn/v3/notesvr/set/noteinfo 
+[INFO]test_level2.py:41-16:36:05.389 >> headers: {"Content-Type": "application/json", "X-user-key": "229478081", "Cookie": "wps_sid=V02SkIJL_aWyToRT_5-ELMLvcJ1PC9c00a9f842c000dad8ec1"} 
+[INFO]test_level2.py:42-16:36:05.395 >> body: {"noteId": "1693470965383_test_noteId"} 
+[INFO]test_level2.py:44-16:36:05.583 >> res code: 200 
+[INFO]test_level2.py:45-16:36:05.589 >> res body: {"responseTime":28,"infoVersion":1,"infoUpdateTime":1693470965635} 
+[INFO]caseLogMethod.py:55-16:37:40.265 >> [94m--------------------CASE START--------------------------- 
+[INFO]caseLogMethod.py:59-16:37:40.438 >> Class Name: getHomepageNoteListlevel1 
+[INFO]caseLogMethod.py:60-16:37:40.445 >> Method Name: testCase01_major 
+[INFO]caseLogMethod.py:61-16:37:40.452 >> Test Description: 上传/更新便签信息主体 
+[INFO]test_level1.py:30-16:37:40.458 >> STEP:上传/更新便签信息主体 
+[INFO]test_level1.py:40-16:37:40.469 >> url:http://note-api.wps.cn/v3/notesvr/set/noteinfo 
+[INFO]test_level1.py:41-16:37:40.475 >> headers: {"Content-Type": "application/json", "X-user-key": "229478081", "Cookie": "wps_sid=V02SkIJL_aWyToRT_5-ELMLvcJ1PC9c00a9f842c000dad8ec1"} 
+[INFO]test_level1.py:42-16:37:40.481 >> body: {"noteId": "1693471060469_test_noteId"} 
+[INFO]test_level1.py:44-16:37:40.655 >> res code: 200 
+[INFO]test_level1.py:45-16:37:40.662 >> res body: {"responseTime":36,"infoVersion":1,"infoUpdateTime":1693471060699} 
+[INFO]caseLogMethod.py:55-16:37:58.311 >> [94m--------------------CASE START--------------------------- 
+[INFO]caseLogMethod.py:59-16:37:58.486 >> Class Name: getHomepageNoteListlevel1 
+[INFO]caseLogMethod.py:60-16:37:58.493 >> Method Name: testCase01_major 
+[INFO]caseLogMethod.py:61-16:37:58.499 >> Test Description: 上传/更新便签信息主体 
+[INFO]test_level1.py:30-16:37:58.509 >> STEP:上传/更新便签信息主体 
+[INFO]test_level1.py:44-16:37:58.672 >> res code: 200 
+[INFO]test_level1.py:45-16:37:58.678 >> res body: {"responseTime":29,"infoVersion":1,"infoUpdateTime":1693471078721} 
+[INFO]caseLogMethod.py:55-16:40:22.936 >> [94m--------------------CASE START--------------------------- 
+[INFO]caseLogMethod.py:59-16:40:23.137 >> Class Name: getHomepageNoteListlevel1 
+[INFO]caseLogMethod.py:60-16:40:23.144 >> Method Name: testCase01_major 
+[INFO]caseLogMethod.py:61-16:40:23.150 >> Test Description: 上传/更新便签信息主体 
+[INFO]test_level1.py:31-16:40:23.161 >> STEP:上传/更新便签信息主体 
+[INFO]test_level1.py:41-16:40:23.168 >> url:http://note-api.wps.cn/v3/notesvr/set/noteinfo 
+[INFO]test_level1.py:42-16:40:23.173 >> headers: {"Content-Type": "application/json", "X-user-key": "229478081", "Cookie": "wps_sid=V02SkIJL_aWyToRT_5-ELMLvcJ1PC9c00a9f842c000dad8ec1"} 
+[INFO]test_level1.py:43-16:40:23.182 >> body: {"noteId": "1693471223168_test_noteId"} 
+[INFO]test_level1.py:45-16:40:23.364 >> res code: 200 
+[INFO]test_level1.py:46-16:40:23.372 >> res body: {"responseTime":27,"infoVersion":1,"infoUpdateTime":1693471223405} 
+[INFO]caseLogMethod.py:55-16:49:05.968 >> [94m--------------------CASE START--------------------------- 
+[INFO]caseLogMethod.py:59-16:49:06.150 >> Class Name: getHomepageNoteListlevel1 
+[INFO]caseLogMethod.py:60-16:49:06.156 >> Method Name: testCase01_major 
+[INFO]caseLogMethod.py:61-16:49:06.162 >> Test Description: 上传/更新便签信息主体 
+[INFO]test_level3.py:31-16:49:06.171 >> STEP:上传/更新便签信息主体 
+[INFO]test_level3.py:41-16:49:06.177 >> url:http://note-api.wps.cn/v3/notesvr/set/noteinfo 
+[INFO]test_level3.py:42-16:49:06.183 >> headers: {"Content-Type": "application/json", "X-user-key": "229478081", "Cookie": "wps_sid=V02SkIJL_aWyToRT_5-ELMLvcJ1PC9c00a9f842c000dad8ec1"} 
+[INFO]test_level3.py:43-16:49:06.190 >> body: {"noteId": "1693471746177_test_noteId"} 
+[INFO]test_level3.py:45-16:49:06.459 >> res code: 200 
+[INFO]test_level3.py:46-16:49:06.468 >> res body: {"responseTime":98,"infoVersion":1,"infoUpdateTime":1693471746436} 
+[INFO]caseLogMethod.py:55-16:56:11.648 >> [94m--------------------CASE START--------------------------- 
+[INFO]caseLogMethod.py:59-16:56:11.837 >> Class Name: getHomepageNoteListlevel1 
+[INFO]caseLogMethod.py:60-16:56:11.844 >> Method Name: testCase01_major 
+[INFO]caseLogMethod.py:61-16:56:11.850 >> Test Description: 上传/更新便签信息主体 
+[INFO]test_level1.py:32-16:56:11.859 >> STEP:上传/更新便签信息主体 
+[INFO]caseLogMethod.py:55-16:56:48.014 >> [94m--------------------CASE START--------------------------- 
+[INFO]caseLogMethod.py:59-16:56:48.229 >> Class Name: getHomepageNoteListlevel1 
+[INFO]caseLogMethod.py:60-16:56:48.235 >> Method Name: testCase01_major 
+[INFO]caseLogMethod.py:61-16:56:48.242 >> Test Description: 上传/更新便签信息主体 
+[INFO]test_level1.py:34-16:56:48.254 >> STEP:上传/更新便签信息主体 
+[INFO]caseLogMethod.py:55-16:57:14.120 >> [94m--------------------CASE START--------------------------- 
+[INFO]caseLogMethod.py:59-16:57:14.330 >> Class Name: getHomepageNoteListlevel1 
+[INFO]caseLogMethod.py:60-16:57:14.336 >> Method Name: testCase01_major 
+[INFO]caseLogMethod.py:61-16:57:14.342 >> Test Description: 上传/更新便签信息主体 
+[INFO]test_level1.py:34-16:57:14.349 >> STEP:上传/更新便签信息主体 
+[INFO]caseLogMethod.py:55-17:00:35.442 >> [94m--------------------CASE START--------------------------- 
+[INFO]caseLogMethod.py:59-17:00:35.690 >> Class Name: getHomepageNoteListlevel1 
+[INFO]caseLogMethod.py:60-17:00:35.703 >> Method Name: testCase01_major 
+[INFO]caseLogMethod.py:61-17:00:35.716 >> Test Description: 上传/更新便签信息主体 
+[INFO]test_level1.py:34-17:00:35.723 >> STEP:上传/更新便签信息主体 
+[INFO]apiRe.py:18-17:00:35.734 >> url: http://note-api.wps.cn/v3/notesvr/set/noteinfo 
+[INFO]apiRe.py:19-17:00:35.742 >> headers: {"Content-Type": "application/json", "X-user-key": "229478081", "Cookie": "wps_sid=V02SkIJL_aWyToRT_5-ELMLvcJ1PC9c00a9f842c000dad8ec1"} 
+[INFO]apiRe.py:20-17:00:35.756 >> body: {"noteId": "1693472435734_test_noteId"} 
+[INFO]apiRe.py:22-17:00:35.950 >> res code: 200 
+[INFO]apiRe.py:23-17:00:35.966 >> res body: {"responseTime":31,"infoVersion":1,"infoUpdateTime":1693472436024} 
+[INFO]caseLogMethod.py:55-17:14:41.594 >> [94m--------------------CASE START--------------------------- 
+[INFO]caseLogMethod.py:59-17:14:41.772 >> Class Name: getHomepageNoteListlevel1 
+[INFO]caseLogMethod.py:60-17:14:41.778 >> Method Name: testCase01_major 
+[INFO]caseLogMethod.py:61-17:14:41.783 >> Test Description: 上传/更新便签信息主体 
+[INFO]test_level1.py:37-17:14:41.789 >> STEP:上传/更新便签信息主体 
+[INFO]apiRe.py:18-17:14:41.796 >> url: http://note-api.wps.cn/v3/notesvr/set/noteinfo 
+[INFO]apiRe.py:19-17:14:41.806 >> headers: {"Content-Type": "application/json", "X-user-key": "229478081", "Cookie": "wps_sid=V02SkIJL_aWyToRT_5-ELMLvcJ1PC9c00a9f842c000dad8ec1"} 
+[INFO]apiRe.py:20-17:14:41.816 >> body: {"noteId": "1693473281796_test_noteId"} 
+[INFO]apiRe.py:22-17:14:42.108 >> res code: 200 
+[INFO]apiRe.py:23-17:14:42.115 >> res body: {"responseTime":74,"infoVersion":1,"infoUpdateTime":1693473282122} 
+[INFO]caseLogMethod.py:55-17:29:38.503 >> [94m--------------------CASE START--------------------------- 
+[INFO]caseLogMethod.py:59-17:29:38.686 >> Class Name: getHomepageNoteListlevel1 
+[INFO]caseLogMethod.py:60-17:29:38.692 >> Method Name: testCase01_major 
+[INFO]caseLogMethod.py:61-17:29:38.698 >> Test Description: 上传/更新便签信息主体 
+[INFO]test_level1.py:39-17:29:38.710 >> STEP:上传/更新便签信息主体 
+[INFO]apiRe.py:18-17:29:38.718 >> url: http://note-api.wps.cn/v3/notesvr/set/noteinfo 
+[INFO]apiRe.py:19-17:29:38.725 >> headers: {"Content-Type": "application/json", "X-user-key": "229478081", "Cookie": "wps_sid=V02SkIJL_aWyToRT_5-ELMLvcJ1PC9c00a9f842c000dad8ec1"} 
+[INFO]apiRe.py:20-17:29:38.732 >> body: {"noteId": "1693474178718_test_noteId"} 
+[INFO]apiRe.py:22-17:29:40.149 >> res code: 200 
+[INFO]apiRe.py:23-17:29:40.158 >> res body: {"responseTime":34,"infoVersion":1,"infoUpdateTime":1693474180254} 
+[INFO]test_level1.py:55-17:29:40.165 >> 上传/更新便签内容 
+[INFO]apiRe.py:18-17:29:40.172 >> url: http://note-api.wps.cn/v3/notesvr/set/notecontent 
+[INFO]apiRe.py:19-17:29:40.178 >> headers: {"Content-Type": "application/json", "X-user-key": "229478081", "Cookie": "wps_sid=V02SkIJL_aWyToRT_5-ELMLvcJ1PC9c00a9f842c000dad8ec1"} 
+[INFO]apiRe.py:20-17:29:40.186 >> body: {"noteId": "1693474178718_test_noteId", "title": "test_title", "summary": "test_summary", "body": "test_body", "localContentVersion": "test_local_content_version", "BodyType": 0} 
+[INFO]apiRe.py:22-17:29:40.318 >> res code: 500 
+[INFO]apiRe.py:23-17:29:40.325 >> res body: {"errorCode":-7,"errorMsg":""} 
+[INFO]caseLogMethod.py:55-17:30:23.484 >> [94m--------------------CASE START--------------------------- 
+[INFO]caseLogMethod.py:59-17:30:23.664 >> Class Name: getHomepageNoteListlevel1 
+[INFO]caseLogMethod.py:60-17:30:23.670 >> Method Name: testCase01_major 
+[INFO]caseLogMethod.py:61-17:30:23.676 >> Test Description: 上传/更新便签信息主体 
+[INFO]test_level1.py:39-17:30:23.683 >> STEP:上传/更新便签信息主体 
+[INFO]apiRe.py:18-17:30:23.690 >> url: http://note-api.wps.cn/v3/notesvr/set/noteinfo 
+[INFO]apiRe.py:19-17:30:23.699 >> headers: {"Content-Type": "application/json", "X-user-key": "229478081", "Cookie": "wps_sid=V02SkIJL_aWyToRT_5-ELMLvcJ1PC9c00a9f842c000dad8ec1"} 
+[INFO]apiRe.py:20-17:30:23.708 >> body: {"noteId": "1693474223690_test_noteId"} 
+[INFO]apiRe.py:22-17:30:23.867 >> res code: 200 
+[INFO]apiRe.py:23-17:30:23.881 >> res body: {"responseTime":31,"infoVersion":1,"infoUpdateTime":1693474223978} 
+[INFO]test_level1.py:55-17:30:23.887 >> 上传/更新便签内容 
+[INFO]apiRe.py:18-17:30:23.903 >> url: http://note-api.wps.cn/v3/notesvr/set/noteinfo 
+[INFO]apiRe.py:19-17:30:23.920 >> headers: {"Content-Type": "application/json", "X-user-key": "229478081", "Cookie": "wps_sid=V02SkIJL_aWyToRT_5-ELMLvcJ1PC9c00a9f842c000dad8ec1"} 
+[INFO]apiRe.py:20-17:30:23.930 >> body: {"noteId": "1693474223690_test_noteId", "title": "test_title", "summary": "test_summary", "body": "test_body", "localContentVersion": "test_local_content_version", "BodyType": 0} 
+[INFO]apiRe.py:22-17:30:24.076 >> res code: 200 
+[INFO]apiRe.py:23-17:30:24.083 >> res body: {"responseTime":28,"infoVersion":2,"infoUpdateTime":1693474224174} 
+[INFO]caseLogMethod.py:55-17:32:06.227 >> [94m--------------------CASE START--------------------------- 
+[INFO]caseLogMethod.py:59-17:32:06.433 >> Class Name: getHomepageNoteListlevel1 
+[INFO]caseLogMethod.py:60-17:32:06.440 >> Method Name: testCase01_major 
+[INFO]caseLogMethod.py:61-17:32:06.448 >> Test Description: 上传/更新便签信息主体 
+[INFO]test_level1.py:39-17:32:06.457 >> STEP:上传/更新便签信息主体 
+[INFO]apiRe.py:18-17:32:06.465 >> url: http://note-api.wps.cn/v3/notesvr/set/noteinfo 
+[INFO]apiRe.py:19-17:32:06.475 >> headers: {"Content-Type": "application/json", "X-user-key": "229478081", "Cookie": "wps_sid=V02SkIJL_aWyToRT_5-ELMLvcJ1PC9c00a9f842c000dad8ec1"} 
+[INFO]apiRe.py:20-17:32:06.482 >> body: {"noteId": "1693474326465_test_noteId"} 
+[INFO]apiRe.py:22-17:32:06.628 >> res code: 200 
+[INFO]apiRe.py:23-17:32:06.637 >> res body: {"responseTime":26,"infoVersion":1,"infoUpdateTime":1693474326740} 
+[INFO]test_level1.py:55-17:32:06.647 >> 上传/更新便签内容 
+[INFO]apiRe.py:18-17:32:06.661 >> url: http://note-api.wps.cn/v3/notesvr/set/notecontent 
+[INFO]apiRe.py:19-17:32:06.673 >> headers: {"Content-Type": "application/json", "X-user-key": "229478081", "Cookie": "wps_sid=V02SkIJL_aWyToRT_5-ELMLvcJ1PC9c00a9f842c000dad8ec1"} 
+[INFO]apiRe.py:20-17:32:06.680 >> body: {"noteId": "1693474326465_test_noteId", "title": "test_title", "summary": "test_summary", "body": "test_body", "localContentVersion": "test_local_content_version", "BodyType": 0} 
+[INFO]apiRe.py:22-17:32:06.803 >> res code: 500 
+[INFO]apiRe.py:23-17:32:06.814 >> res body: {"errorCode":-7,"errorMsg":""} 
+[INFO]caseLogMethod.py:55-17:36:33.077 >> [94m--------------------CASE START--------------------------- 
+[INFO]caseLogMethod.py:59-17:36:33.262 >> Class Name: getHomepageNoteListlevel1 
+[INFO]caseLogMethod.py:60-17:36:33.268 >> Method Name: testCase01_major 
+[INFO]caseLogMethod.py:61-17:36:33.274 >> Test Description: 上传/更新便签信息主体 
+[INFO]test_level1.py:40-17:36:33.280 >> STEP:上传/更新便签信息主体 
+[INFO]apiRe.py:18-17:36:33.287 >> url: http://note-api.wps.cn/v3/notesvr/set/noteinfo 
+[INFO]apiRe.py:19-17:36:33.295 >> headers: {"Content-Type": "application/json", "X-user-key": "229478081", "Cookie": "wps_sid=V02SkIJL_aWyToRT_5-ELMLvcJ1PC9c00a9f842c000dad8ec1"} 
+[INFO]apiRe.py:20-17:36:33.304 >> body: {"noteId": "1693474593287_test_noteId"} 
+[INFO]apiRe.py:22-17:36:33.523 >> res code: 200 
+[INFO]apiRe.py:23-17:36:33.530 >> res body: {"responseTime":35,"infoVersion":1,"infoUpdateTime":1693474593628} 
+[INFO]test_level1.py:56-17:36:33.537 >> 上传/更新便签内容 
+[INFO]apiRe.py:18-17:36:33.543 >> url: http://note-api.wps.cn/v3/notesvr/set/notecontent 
+[INFO]apiRe.py:19-17:36:33.550 >> headers: {"Content-Type": "application/json", "X-user-key": "229478081", "Cookie": "wps_sid=V02SkIJL_aWyToRT_5-ELMLvcJ1PC9c00a9f842c000dad8ec1"} 
+[INFO]apiRe.py:20-17:36:33.561 >> body: {"noteId": "1693474593287_test_noteId", "title": "test_title", "summary": "test_summary", "body": "test_body", "localContentVersion": 1, "BodyType": 0} 
+[INFO]apiRe.py:22-17:36:33.738 >> res code: 200 
+[INFO]apiRe.py:23-17:36:33.745 >> res body: {"responseTime":38,"contentVersion":1,"contentUpdateTime":1693474593825} 
+[INFO]caseLogMethod.py:55-17:38:15.759 >> [94m--------------------CASE START--------------------------- 
+[INFO]caseLogMethod.py:59-17:38:15.962 >> Class Name: getHomepageNoteListlevel1 
+[INFO]caseLogMethod.py:60-17:38:15.968 >> Method Name: testCase01_major 
+[INFO]caseLogMethod.py:61-17:38:15.975 >> Test Description: 上传/更新便签信息主体 
+[INFO]test_level1.py:40-17:38:15.981 >> STEP:上传/更新便签信息主体 
+[INFO]apiRe.py:18-17:38:15.988 >> url: http://note-api.wps.cn/v3/notesvr/set/noteinfo 
+[INFO]apiRe.py:19-17:38:15.995 >> headers: {"Content-Type": "application/json", "X-user-key": "229478081", "Cookie": "wps_sid=V02SkIJL_aWyToRT_5-ELMLvcJ1PC9c00a9f842c000dad8ec1"} 
+[INFO]apiRe.py:20-17:38:16.010 >> body: {"noteId": "1693474695988_test_noteId"} 
+[INFO]apiRe.py:22-17:38:16.196 >> res code: 200 
+[INFO]apiRe.py:23-17:38:16.205 >> res body: {"responseTime":31,"infoVersion":1,"infoUpdateTime":1693474696292} 
+[INFO]test_level1.py:56-17:38:16.215 >> 上传/更新便签内容 
+[INFO]apiRe.py:18-17:38:16.222 >> url: http://note-api.wps.cn/v3/notesvr/set/notecontent 
+[INFO]apiRe.py:19-17:38:16.229 >> headers: {"Content-Type": "application/json", "X-user-key": "229478081", "Cookie": "wps_sid=V02SkIJL_aWyToRT_5-ELMLvcJ1PC9c00a9f842c000dad8ec1"} 
+[INFO]apiRe.py:20-17:38:16.236 >> body: {"noteId": "1693474695988_test_noteId", "title": "test_title", "summary": "test_summary", "body": "test_body", "localContentVersion": 1, "BodyType": 0} 
+[INFO]apiRe.py:22-17:38:16.408 >> res code: 200 
+[INFO]apiRe.py:23-17:38:16.420 >> res body: {"responseTime":31,"contentVersion":1,"contentUpdateTime":1693474696519} 
+[INFO]caseLogMethod.py:55-17:49:21.056 >> [94m--------------------CASE START--------------------------- 
+[INFO]caseLogMethod.py:59-17:49:21.256 >> Class Name: getHomepageNoteListlevel1 
+[INFO]caseLogMethod.py:60-17:49:21.268 >> Method Name: testCase01_major 
+[INFO]caseLogMethod.py:61-17:49:21.274 >> Test Description: 上传/更新便签信息主体 
+[INFO]test_level1.py:40-17:49:21.281 >> STEP:上传/更新便签信息主体 
+[INFO]apiRe.py:18-17:49:21.288 >> url: http://note-api.wps.cn/v3/notesvr/set/noteinfo 
+[INFO]apiRe.py:19-17:49:21.295 >> headers: {"Content-Type": "application/json", "X-user-key": "229478081", "Cookie": "wps_sid=V02SkIJL_aWyToRT_5-ELMLvcJ1PC9c00a9f842c000dad8ec1"} 
+[INFO]apiRe.py:20-17:49:21.303 >> body: {"noteId": "1693475361288_test_noteId"} 
+[INFO]apiRe.py:22-17:49:21.483 >> res code: 200 
+[INFO]apiRe.py:23-17:49:21.492 >> res body: {"responseTime":26,"infoVersion":1,"infoUpdateTime":1693475361598} 
+[INFO]test_level1.py:56-17:49:21.500 >> 上传/更新便签内容 
+[INFO]apiRe.py:18-17:49:21.509 >> url: http://note-api.wps.cn/v3/notesvr/set/notecontent 
+[INFO]apiRe.py:19-17:49:21.518 >> headers: {"Content-Type": "application/json", "X-user-key": "229478081", "Cookie": "wps_sid=V02SkIJL_aWyToRT_5-ELMLvcJ1PC9c00a9f842c000dad8ec1"} 
+[INFO]apiRe.py:20-17:49:21.526 >> body: {"noteId": "1693475361288_test_noteId", "title": "test_title", "summary": "test_summary", "body": "test_body", "localContentVersion": 1, "BodyType": 0} 
+[INFO]apiRe.py:22-17:49:21.683 >> res code: 200 
+[INFO]apiRe.py:23-17:49:21.690 >> res body: {"responseTime":25,"contentVersion":1,"contentUpdateTime":1693475361803} 
+[INFO]caseLogMethod.py:55-18:02:59.476 >> [94m--------------------CASE START--------------------------- 
+[INFO]caseLogMethod.py:59-18:02:59.681 >> Class Name: getHomepageNoteListlevel1 
+[INFO]caseLogMethod.py:60-18:02:59.687 >> Method Name: testCase01_major 
+[INFO]caseLogMethod.py:61-18:02:59.696 >> Test Description: None 
+[INFO]test_level1.py:40-18:02:59.702 >> STEP:获取首页便签列表 
+[INFO]caseLogMethod.py:55-18:05:00.108 >> [94m--------------------CASE START--------------------------- 
+[INFO]caseLogMethod.py:59-18:05:00.314 >> Class Name: getHomepageNoteListlevel1 
+[INFO]caseLogMethod.py:60-18:05:00.320 >> Method Name: testCase01_major 
+[INFO]caseLogMethod.py:61-18:05:00.328 >> Test Description: None 
+[INFO]test_level1.py:40-18:05:00.337 >> STEP:获取首页便签列表 
+[INFO]caseLogMethod.py:55-18:06:38.029 >> [94m--------------------CASE START--------------------------- 
+[INFO]caseLogMethod.py:59-18:06:38.216 >> Class Name: getHomepageNoteListlevel1 
+[INFO]caseLogMethod.py:60-18:06:38.222 >> Method Name: testCase01_major 
+[INFO]caseLogMethod.py:61-18:06:38.230 >> Test Description: None 
+[INFO]test_level1.py:40-18:06:38.237 >> STEP:获取首页便签列表 
+[INFO]caseLogMethod.py:55-18:06:54.872 >> [94m--------------------CASE START--------------------------- 
+[INFO]caseLogMethod.py:59-18:06:55.064 >> Class Name: getHomepageNoteListlevel1 
+[INFO]caseLogMethod.py:60-18:06:55.070 >> Method Name: testCase01_major 
+[INFO]caseLogMethod.py:61-18:06:55.076 >> Test Description: None 
+[INFO]test_level1.py:40-18:06:55.082 >> STEP:获取首页便签列表 
+[INFO]caseLogMethod.py:55-18:06:59.469 >> [94m--------------------CASE START--------------------------- 
+[INFO]caseLogMethod.py:59-18:06:59.642 >> Class Name: getHomepageNoteListlevel1 
+[INFO]caseLogMethod.py:60-18:06:59.652 >> Method Name: testCase01_major 
+[INFO]caseLogMethod.py:61-18:06:59.658 >> Test Description: None 
+[INFO]test_level1.py:40-18:06:59.667 >> STEP:获取首页便签列表 
+[INFO]caseLogMethod.py:55-18:07:35.097 >> [94m--------------------CASE START--------------------------- 
+[INFO]caseLogMethod.py:59-18:07:35.321 >> Class Name: getHomepageNoteListlevel1 
+[INFO]caseLogMethod.py:60-18:07:35.327 >> Method Name: testCase01_major 
+[INFO]caseLogMethod.py:61-18:07:35.333 >> Test Description: None 
+[INFO]test_level1.py:41-18:07:35.340 >> STEP:获取首页便签列表 
+[INFO]caseLogMethod.py:55-18:08:10.650 >> [94m--------------------CASE START--------------------------- 
+[INFO]caseLogMethod.py:59-18:08:10.886 >> Class Name: getHomepageNoteListlevel1 
+[INFO]caseLogMethod.py:60-18:08:10.894 >> Method Name: testCase01_major 
+[INFO]caseLogMethod.py:61-18:08:10.905 >> Test Description: None 
+[INFO]test_level1.py:56-18:08:10.912 >> STEP:上传/更新便签信息主体 
+[INFO]apiRe.py:18-18:08:10.920 >> url: http://note-api.wps.cn/v3/notesvr/set/noteinfo 
+[INFO]apiRe.py:19-18:08:10.927 >> headers: {"Content-Type": "application/json", "X-user-key": "229478081", "Cookie": "wps_sid=V02SkIJL_aWyToRT_5-ELMLvcJ1PC9c00a9f842c000dad8ec1"} 
+[INFO]apiRe.py:20-18:08:10.939 >> body: {"noteId": "1693476490920_test_noteId"} 
+[INFO]apiRe.py:22-18:08:11.173 >> res code: 200 
+[INFO]apiRe.py:23-18:08:11.188 >> res body: {"responseTime":48,"infoVersion":1,"infoUpdateTime":1693476491280} 
+[INFO]test_level1.py:71-18:08:11.196 >> 上传/更新便签内容 
+[INFO]apiRe.py:18-18:08:11.205 >> url: http://note-api.wps.cn/v3/notesvr/set/notecontent 
+[INFO]apiRe.py:19-18:08:11.214 >> headers: {"Content-Type": "application/json", "X-user-key": "229478081", "Cookie": "wps_sid=V02SkIJL_aWyToRT_5-ELMLvcJ1PC9c00a9f842c000dad8ec1"} 
+[INFO]apiRe.py:20-18:08:11.226 >> body: {"noteId": "1693476490920_test_noteId", "title": "test_title", "summary": "test_summary", "body": "test_body", "localContentVersion": 1, "BodyType": 0} 
+[INFO]apiRe.py:22-18:08:11.395 >> res code: 200 
+[INFO]apiRe.py:23-18:08:11.404 >> res body: {"responseTime":30,"contentVersion":1,"contentUpdateTime":1693476491524} 
+[INFO]caseLogMethod.py:55-18:09:33.681 >> [94m--------------------CASE START--------------------------- 
+[INFO]caseLogMethod.py:59-18:09:33.890 >> Class Name: getHomepageNoteListlevel1 
+[INFO]caseLogMethod.py:60-18:09:33.896 >> Method Name: testCase01_major 
+[INFO]caseLogMethod.py:61-18:09:33.905 >> Test Description: None 
+[INFO]test_level1.py:41-18:09:33.914 >> STEP:获取首页便签列表 
+[INFO]apiRe.py:18-18:09:33.921 >> url: http://note-api.wps.cn/v3/notesvr/user/{229478081}/home/startindex/{0}/rows/{50}/notes 
+[INFO]apiRe.py:19-18:09:33.927 >> headers: {"Content-Type": "application/json", "X-user-key": "229478081", "Cookie": "wps_sid=V02SkIJL_aWyToRT_5-ELMLvcJ1PC9c00a9f842c000dad8ec1"} 
+[INFO]apiRe.py:20-18:09:33.935 >> body: {"userid": 229478081, "startindex": 0, "rows": 50} 
+[INFO]apiRe.py:22-18:09:34.080 >> res code: 500 
+[INFO]apiRe.py:23-18:09:34.088 >> res body: {"errorCode":-7,"errorMsg":""} 
+[INFO]caseLogMethod.py:55-18:10:18.743 >> [94m--------------------CASE START--------------------------- 
+[INFO]caseLogMethod.py:59-18:10:18.939 >> Class Name: getHomepageNoteListlevel1 
+[INFO]caseLogMethod.py:60-18:10:18.945 >> Method Name: testCase01_major 
+[INFO]caseLogMethod.py:61-18:10:18.956 >> Test Description: None 
+[INFO]test_level1.py:41-18:10:18.962 >> STEP:获取首页便签列表 
+[INFO]apiRe.py:18-18:10:18.969 >> url: http://note-api.wps.cn/v3/notesvr/user/229478081/home/startindex/0/rows/50/notes 
+[INFO]apiRe.py:19-18:10:18.976 >> headers: {"Content-Type": "application/json", "X-user-key": "229478081", "Cookie": "wps_sid=V02SkIJL_aWyToRT_5-ELMLvcJ1PC9c00a9f842c000dad8ec1"} 
+[INFO]apiRe.py:20-18:10:18.984 >> body: {"userid": 229478081, "startindex": 0, "rows": 50} 
+[INFO]apiRe.py:22-18:10:19.133 >> res code: 500 
+[INFO]apiRe.py:23-18:10:19.141 >> res body: {"errorCode":-7,"errorMsg":""} 
+[INFO]caseLogMethod.py:55-18:10:29.787 >> [94m--------------------CASE START--------------------------- 
+[INFO]caseLogMethod.py:59-18:10:29.975 >> Class Name: getHomepageNoteListlevel1 
+[INFO]caseLogMethod.py:60-18:10:29.980 >> Method Name: testCase01_major 
+[INFO]caseLogMethod.py:61-18:10:29.987 >> Test Description: None 
+[INFO]test_level1.py:41-18:10:29.993 >> STEP:获取首页便签列表 
+[INFO]apiRe.py:18-18:10:30.004 >> url: http://note-api.wps.cn/v2/notesvr/user/229478081/home/startindex/0/rows/50/notes 
+[INFO]apiRe.py:19-18:10:30.012 >> headers: {"Content-Type": "application/json", "X-user-key": "229478081", "Cookie": "wps_sid=V02SkIJL_aWyToRT_5-ELMLvcJ1PC9c00a9f842c000dad8ec1"} 
+[INFO]apiRe.py:20-18:10:30.019 >> body: {"userid": 229478081, "startindex": 0, "rows": 50} 
+[INFO]apiRe.py:22-18:10:30.171 >> res code: 404 
+[INFO]apiRe.py:23-18:10:30.178 >> res body: {"error_msg":"failed to match any routes"}
+ 
+[INFO]caseLogMethod.py:55-18:12:34.154 >> [94m--------------------CASE START--------------------------- 
+[INFO]caseLogMethod.py:59-18:12:34.352 >> Class Name: getHomepageNoteListlevel1 
+[INFO]caseLogMethod.py:60-18:12:34.358 >> Method Name: testCase01_major 
+[INFO]caseLogMethod.py:61-18:12:34.366 >> Test Description: None 
+[INFO]test_level1.py:41-18:12:34.373 >> STEP:获取首页便签列表 
+[INFO]apiRe.py:18-18:12:34.381 >> url: http://note-api.wps.cn/notesvr/v2/user/229478081/home/startindex/0/rows/50/notes 
+[INFO]apiRe.py:19-18:12:34.388 >> headers: {"Content-Type": "application/json", "X-user-key": "229478081", "Cookie": "wps_sid=V02SkIJL_aWyToRT_5-ELMLvcJ1PC9c00a9f842c000dad8ec1"} 
+[INFO]apiRe.py:20-18:12:34.397 >> body: {"userid": 229478081, "startindex": 0, "rows": 50} 
+[INFO]apiRe.py:22-18:12:34.563 >> res code: 405 
+[INFO]apiRe.py:23-18:12:34.571 >> res body: {"timestamp":1693476754684,"status":405,"error":"Method Not Allowed","exception":"org.springframework.web.HttpRequestMethodNotSupportedException","message":"Request method 'POST' not supported","path":"/notesvr/v2/user/229478081/home/startindex/0/rows/50/notes"} 
+[INFO]caseLogMethod.py:55-18:14:24.128 >> [94m--------------------CASE START--------------------------- 
+[INFO]caseLogMethod.py:59-18:14:24.331 >> Class Name: getHomepageNoteListlevel1 
+[INFO]caseLogMethod.py:60-18:14:24.337 >> Method Name: testCase01_major 
+[INFO]caseLogMethod.py:61-18:14:24.344 >> Test Description: None 
+[INFO]test_level1.py:56-18:14:24.358 >> STEP:上传/更新便签信息主体 
+[INFO]apiRe.py:18-18:14:24.368 >> url: http://note-api.wps.cn/v3/notesvr/set/noteinfo 
+[INFO]apiRe.py:19-18:14:24.377 >> headers: {"Content-Type": "application/json", "X-user-key": "229478081", "Cookie": "wps_sid=V02SkIJL_aWyToRT_5-ELMLvcJ1PC9c00a9f842c000dad8ec1"} 
+[INFO]apiRe.py:20-18:14:24.386 >> body: {"noteId": "1693476864368_test_noteId"} 
+[INFO]apiRe.py:22-18:14:24.610 >> res code: 200 
+[INFO]apiRe.py:23-18:14:24.619 >> res body: {"responseTime":26,"infoVersion":1,"infoUpdateTime":1693476864731} 
+[INFO]test_level1.py:71-18:14:24.630 >> 上传/更新便签内容 
+[INFO]apiRe.py:18-18:14:24.638 >> url: http://note-api.wps.cn/v3/notesvr/set/notecontent 
+[INFO]apiRe.py:19-18:14:24.658 >> headers: {"Content-Type": "application/json", "X-user-key": "229478081", "Cookie": "wps_sid=V02SkIJL_aWyToRT_5-ELMLvcJ1PC9c00a9f842c000dad8ec1"} 
+[INFO]apiRe.py:20-18:14:24.666 >> body: {"noteId": "1693476864368_test_noteId", "title": "test_title", "summary": "test_summary", "body": "test_body", "localContentVersion": 1, "BodyType": 0} 
+[INFO]apiRe.py:22-18:14:24.814 >> res code: 200 
+[INFO]apiRe.py:23-18:14:24.823 >> res body: {"responseTime":23,"contentVersion":1,"contentUpdateTime":1693476864940} 
+[INFO]caseLogMethod.py:55-18:17:42.808 >> [94m--------------------CASE START--------------------------- 
+[INFO]caseLogMethod.py:59-18:17:43.017 >> Class Name: getHomepageNoteListlevel1 
+[INFO]caseLogMethod.py:60-18:17:43.023 >> Method Name: testCase01_major 
+[INFO]caseLogMethod.py:61-18:17:43.030 >> Test Description: None 
+[INFO]test_level1.py:56-18:17:43.036 >> STEP:上传/更新便签信息主体 
+[INFO]apiRe.py:18-18:17:43.044 >> url: https://note-api.wps.cn/v3/notesvr/set/noteinfo 
+[INFO]apiRe.py:19-18:17:43.054 >> headers: {"Content-Type": "application/json", "X-user-key": "229478081", "Cookie": "wps_sid=V02SkIJL_aWyToRT_5-ELMLvcJ1PC9c00a9f842c000dad8ec1"} 
+[INFO]apiRe.py:20-18:17:43.066 >> body: {"noteId": "1693477063044_test_noteId"} 
+[INFO]apiRe.py:22-18:17:43.434 >> res code: 200 
+[INFO]apiRe.py:23-18:17:43.442 >> res body: {"responseTime":39,"infoVersion":1,"infoUpdateTime":1693477063557} 
+[INFO]test_level1.py:71-18:17:43.451 >> 上传/更新便签内容 
+[INFO]apiRe.py:18-18:17:43.460 >> url: https://note-api.wps.cn/v3/notesvr/set/notecontent 
+[INFO]apiRe.py:19-18:17:43.468 >> headers: {"Content-Type": "application/json", "X-user-key": "229478081", "Cookie": "wps_sid=V02SkIJL_aWyToRT_5-ELMLvcJ1PC9c00a9f842c000dad8ec1"} 
+[INFO]apiRe.py:20-18:17:43.474 >> body: {"noteId": "1693477063044_test_noteId", "title": "test_title", "summary": "test_summary", "body": "test_body", "localContentVersion": 1, "BodyType": 0} 
+[INFO]apiRe.py:22-18:17:43.682 >> res code: 200 
+[INFO]apiRe.py:23-18:17:43.690 >> res body: {"responseTime":37,"contentVersion":1,"contentUpdateTime":1693477063809} 
+[INFO]caseLogMethod.py:55-18:18:13.316 >> [94m--------------------CASE START--------------------------- 
+[INFO]caseLogMethod.py:59-18:18:13.504 >> Class Name: getHomepageNoteListlevel1 
+[INFO]caseLogMethod.py:60-18:18:13.515 >> Method Name: testCase01_major 
+[INFO]caseLogMethod.py:61-18:18:13.521 >> Test Description: None 
+[INFO]test_level1.py:41-18:18:13.528 >> STEP:获取首页便签列表 
+[INFO]apiRe.py:18-18:18:13.534 >> url: https://note-api.wps.cn/notesvr/v2/user/229478081/home/startindex/0/rows/50/notes 
+[INFO]apiRe.py:19-18:18:13.544 >> headers: {"Content-Type": "application/json", "X-user-key": "229478081", "Cookie": "wps_sid=V02SkIJL_aWyToRT_5-ELMLvcJ1PC9c00a9f842c000dad8ec1"} 
+[INFO]apiRe.py:20-18:18:13.552 >> body: {"userid": 229478081, "startindex": 0, "rows": 50} 
+[INFO]apiRe.py:22-18:18:13.840 >> res code: 405 
+[INFO]apiRe.py:23-18:18:13.847 >> res body: {"timestamp":1693477093982,"status":405,"error":"Method Not Allowed","exception":"org.springframework.web.HttpRequestMethodNotSupportedException","message":"Request method 'POST' not supported","path":"/notesvr/v2/user/229478081/home/startindex/0/rows/50/notes"} 
