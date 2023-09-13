@@ -37,6 +37,9 @@ class getRecyclebinLevel1(unittest.TestCase):
     deleteNotePath = apiConfig['deleteNote']['path']
     delete_note_url = host + deleteNotePath
 
+    cleanRecyclebinPath = apiConfig['cleanRecyclebin']['path']
+    clean_Recyclebin_url = host + cleanRecyclebinPath
+
     @parameterized.expand(must_key)
     def testCase02_input_must_key(self, dic):
         """恢复回收站的便签"""
