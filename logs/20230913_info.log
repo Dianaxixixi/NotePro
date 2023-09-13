@@ -1,0 +1,322 @@
+[INFO]caseLogMethod.py:68-11:04:32.630 >> [94m--------------------CASE START--------------------------- 
+[INFO]caseLogMethod.py:72-11:04:33.287 >> Class Name: getGroupLevel1 
+[INFO]caseLogMethod.py:73-11:04:33.300 >> Method Name: testCase01_major 
+[INFO]caseLogMethod.py:74-11:04:33.317 >> Test Description: 新增分组 
+[INFO]test_level1.py:31-11:04:33.339 >> STEP:新增分组 
+[INFO]apiRe.py:18-11:04:33.357 >> url: https://note-api.wps.cn/v3/notesvr/set/notegroup 
+[INFO]apiRe.py:19-11:04:33.382 >> headers: {"Content-Type": "application/json", "X-user-key": "229478081", "Cookie": "wps_sid=V02SkIJL_aWyToRT_5-ELMLvcJ1PC9c00a9f842c000dad8ec1"} 
+[INFO]apiRe.py:20-11:04:33.400 >> body: {"groupId": "1694574273357_test_groupId", "groupName": "1694574273357_groupName", "order": 0} 
+[INFO]caseLogMethod.py:68-11:04:33.587 >> [94m--------------------CASE START--------------------------- 
+[INFO]caseLogMethod.py:72-11:04:33.620 >> Class Name: getGroupLevel1 
+[INFO]caseLogMethod.py:73-11:04:33.650 >> Method Name: testCase02_input_empty_str_groupId 
+[INFO]caseLogMethod.py:74-11:04:33.668 >> Test Description: 入参校验，校验入参noteId为空字符  
+[INFO]test_level2.py:54-11:04:33.693 >> STEP:新增分组 
+[INFO]apiRe.py:18-11:04:33.714 >> url: https://note-api.wps.cn/v3/notesvr/set/notegroup 
+[INFO]apiRe.py:19-11:04:33.742 >> headers: {"Content-Type": "application/json", "X-user-key": "229478081", "Cookie": "wps_sid=V02SkIJL_aWyToRT_5-ELMLvcJ1PC9c00a9f842c000dad8ec1"} 
+[INFO]apiRe.py:20-11:04:33.760 >> body: {"groupId": "", "groupName": "groupNameAddTest", "order": 0} 
+[INFO]caseLogMethod.py:68-11:04:33.869 >> [94m--------------------CASE START--------------------------- 
+[INFO]caseLogMethod.py:72-11:04:33.904 >> Class Name: getGroupLevel1 
+[INFO]caseLogMethod.py:73-11:04:33.963 >> Method Name: testCase02_input_empty_str_groupName 
+[INFO]caseLogMethod.py:74-11:04:34.008 >> Test Description: 入参校验，校验入参noteId为空字符  
+[INFO]test_level2.py:108-11:04:34.030 >> STEP:新增分组 
+[INFO]apiRe.py:18-11:04:34.058 >> url: https://note-api.wps.cn/v3/notesvr/set/notegroup 
+[INFO]apiRe.py:19-11:04:34.089 >> headers: {"Content-Type": "application/json", "X-user-key": "229478081", "Cookie": "wps_sid=V02SkIJL_aWyToRT_5-ELMLvcJ1PC9c00a9f842c000dad8ec1"} 
+[INFO]apiRe.py:20-11:04:34.137 >> body: {"groupId": "1694574274058_test_groupId", "groupName": "", "order": 0} 
+[INFO]caseLogMethod.py:68-11:04:34.281 >> [94m--------------------CASE START--------------------------- 
+[INFO]caseLogMethod.py:72-11:04:34.296 >> Class Name: getGroupLevel1 
+[INFO]caseLogMethod.py:73-11:04:34.321 >> Method Name: testCase02_input_int_noteId 
+[INFO]caseLogMethod.py:74-11:04:34.354 >> Test Description: 入参校验，校验入参noteId为int类型  
+[INFO]test_level2.py:144-11:04:34.400 >> STEP:新增分组 
+[INFO]apiRe.py:18-11:04:34.440 >> url: https://note-api.wps.cn/v3/notesvr/set/notegroup 
+[INFO]apiRe.py:19-11:04:34.476 >> headers: {"Content-Type": "application/json", "X-user-key": "229478081", "Cookie": "wps_sid=V02SkIJL_aWyToRT_5-ELMLvcJ1PC9c00a9f842c000dad8ec1"} 
+[INFO]apiRe.py:20-11:04:34.502 >> body: {"groupId": "1694574274440_test_groupId", "groupName": 123, "order": 0} 
+[INFO]caseLogMethod.py:68-11:04:34.652 >> [94m--------------------CASE START--------------------------- 
+[INFO]caseLogMethod.py:72-11:04:34.675 >> Class Name: getGroupLevel1 
+[INFO]caseLogMethod.py:73-11:04:34.700 >> Method Name: testCase02_input_must_key_0 
+[INFO]caseLogMethod.py:74-11:04:34.735 >> Test Description: 新增分组 [with dic={'key': 'groupId', 'code': 500}] 
+[INFO]test_level2.py:32-11:04:34.792 >> STEP:新增分组 必填项校验 
+[INFO]apiRe.py:18-11:04:34.861 >> url: https://note-api.wps.cn/v3/notesvr/set/notegroup 
+[INFO]apiRe.py:19-11:04:34.923 >> headers: {"Content-Type": "application/json", "X-user-key": "229478081", "Cookie": "wps_sid=V02SkIJL_aWyToRT_5-ELMLvcJ1PC9c00a9f842c000dad8ec1"} 
+[INFO]apiRe.py:20-11:04:34.993 >> body: {"groupName": "1694574274861_groupName", "order": 0} 
+[INFO]caseLogMethod.py:68-11:04:35.187 >> [94m--------------------CASE START--------------------------- 
+[INFO]caseLogMethod.py:72-11:04:35.214 >> Class Name: getGroupLevel1 
+[INFO]caseLogMethod.py:73-11:04:35.237 >> Method Name: testCase02_input_must_key_1 
+[INFO]caseLogMethod.py:74-11:04:35.268 >> Test Description: 新增分组 [with dic={'key': 'groupName', 'code': 500}] 
+[INFO]test_level2.py:32-11:04:35.300 >> STEP:新增分组 必填项校验 
+[INFO]apiRe.py:18-11:04:35.350 >> url: https://note-api.wps.cn/v3/notesvr/set/notegroup 
+[INFO]apiRe.py:19-11:04:35.408 >> headers: {"Content-Type": "application/json", "X-user-key": "229478081", "Cookie": "wps_sid=V02SkIJL_aWyToRT_5-ELMLvcJ1PC9c00a9f842c000dad8ec1"} 
+[INFO]apiRe.py:20-11:04:35.467 >> body: {"groupId": "1694574275350_group_id", "order": 0} 
+[INFO]caseLogMethod.py:68-11:04:35.626 >> [94m--------------------CASE START--------------------------- 
+[INFO]caseLogMethod.py:72-11:04:35.647 >> Class Name: getGroupLevel1 
+[INFO]caseLogMethod.py:73-11:04:35.661 >> Method Name: testCase02_input_special_str_groupName 
+[INFO]caseLogMethod.py:74-11:04:35.691 >> Test Description: 入参校验，校验入参noteId为特殊字符串  
+[INFO]test_level2.py:126-11:04:35.735 >> STEP:新增分组 
+[INFO]apiRe.py:18-11:04:35.769 >> url: https://note-api.wps.cn/v3/notesvr/set/notegroup 
+[INFO]apiRe.py:19-11:04:35.836 >> headers: {"Content-Type": "application/json", "X-user-key": "229478081", "Cookie": "wps_sid=V02SkIJL_aWyToRT_5-ELMLvcJ1PC9c00a9f842c000dad8ec1"} 
+[INFO]apiRe.py:20-11:04:35.896 >> body: {"groupId": "1694574275768_test_groupId", "groupName": "%%$$$", "order": 0} 
+[INFO]caseLogMethod.py:68-11:04:36.010 >> [94m--------------------CASE START--------------------------- 
+[INFO]caseLogMethod.py:72-11:04:36.042 >> Class Name: getGroupLevel1 
+[INFO]caseLogMethod.py:73-11:04:36.062 >> Method Name: testCase02_input_special_str_noteId 
+[INFO]caseLogMethod.py:74-11:04:36.089 >> Test Description: 入参校验，校验入参noteId为特殊字符串  
+[INFO]test_level2.py:72-11:04:36.108 >> STEP:新增分组 
+[INFO]apiRe.py:18-11:04:36.136 >> url: https://note-api.wps.cn/v3/notesvr/set/notegroup 
+[INFO]apiRe.py:19-11:04:36.154 >> headers: {"Content-Type": "application/json", "X-user-key": "229478081", "Cookie": "wps_sid=V02SkIJL_aWyToRT_5-ELMLvcJ1PC9c00a9f842c000dad8ec1"} 
+[INFO]apiRe.py:20-11:04:36.179 >> body: {"groupId": "%%%%", "groupName": "groupNameAddTest", "order": 0} 
+[STEP]test_level1.py:42-11:04:36.272 >> 初始化清空用户下面分组数据 
+[INFO]apiRe.py:18-11:04:36.317 >> url: https://note-api.wps.cn/v3/notesvr/get/notegroup 
+[INFO]apiRe.py:19-11:04:36.365 >> headers: {"Content-Type": "application/json", "X-user-key": "229478081", "Cookie": "wps_sid=V02SkIJL_aWyToRT_5-ELMLvcJ1PC9c00a9f842c000dad8ec1"} 
+[INFO]apiRe.py:20-11:04:36.405 >> body: {"lastRequestTime": 0, "excludeInValid": "true"} 
+[INFO]caseLogMethod.py:68-11:04:36.516 >> [94m--------------------CASE START--------------------------- 
+[INFO]caseLogMethod.py:72-11:04:36.566 >> Class Name: getGroupLevel1 
+[INFO]caseLogMethod.py:73-11:04:36.612 >> Method Name: testCase02_input_empty_str_groupId 
+[INFO]caseLogMethod.py:74-11:04:36.663 >> Test Description: 入参校验，校验入参noteId为空字符  
+[INFO]test_level2.py:55-11:04:36.700 >> STEP:删除分组 
+[INFO]apiRe.py:18-11:04:36.732 >> url: https://note-api.wps.cn/v3/notesvr/delete/notegroup 
+[INFO]apiRe.py:19-11:04:36.759 >> headers: {"Content-Type": "application/json", "X-user-key": "229478081", "Cookie": "wps_sid=V02SkIJL_aWyToRT_5-ELMLvcJ1PC9c00a9f842c000dad8ec1"} 
+[INFO]apiRe.py:20-11:04:36.806 >> body: {"groupId": ""} 
+[INFO]caseLogMethod.py:68-11:04:36.952 >> [94m--------------------CASE START--------------------------- 
+[INFO]caseLogMethod.py:72-11:04:36.971 >> Class Name: getGroupLevel1 
+[INFO]caseLogMethod.py:73-11:04:37.013 >> Method Name: testCase02_input_int_noteId 
+[INFO]caseLogMethod.py:74-11:04:37.047 >> Test Description: 入参校验，校验入参noteId为int类型  
+[INFO]test_level2.py:71-11:04:37.065 >> STEP:删除分组 
+[INFO]apiRe.py:18-11:04:37.089 >> url: https://note-api.wps.cn/v3/notesvr/delete/notegroup 
+[INFO]apiRe.py:19-11:04:37.118 >> headers: {"Content-Type": "application/json", "X-user-key": "229478081", "Cookie": "wps_sid=V02SkIJL_aWyToRT_5-ELMLvcJ1PC9c00a9f842c000dad8ec1"} 
+[INFO]apiRe.py:20-11:04:37.144 >> body: {"groupId": 1694574277089} 
+[INFO]caseLogMethod.py:68-11:04:37.314 >> [94m--------------------CASE START--------------------------- 
+[INFO]caseLogMethod.py:72-11:04:37.341 >> Class Name: getGroupLevel1 
+[INFO]caseLogMethod.py:73-11:04:37.357 >> Method Name: testCase02_input_must_key_0 
+[INFO]caseLogMethod.py:74-11:04:37.383 >> Test Description: 删除分组 [with dic={'key': 'groupId', 'code': 500}] 
+[INFO]test_level2.py:38-11:04:37.408 >> STEP:删除分组 必填项校验 
+[INFO]apiRe.py:18-11:04:37.458 >> url: https://note-api.wps.cn/v3/notesvr/delete/notegroup 
+[INFO]apiRe.py:19-11:04:37.501 >> headers: {"Content-Type": "application/json", "X-user-key": "229478081", "Cookie": "wps_sid=V02SkIJL_aWyToRT_5-ELMLvcJ1PC9c00a9f842c000dad8ec1"} 
+[INFO]apiRe.py:20-11:04:37.530 >> body: {} 
+[INFO]caseLogMethod.py:68-11:04:37.740 >> [94m--------------------CASE START--------------------------- 
+[INFO]caseLogMethod.py:72-11:04:37.769 >> Class Name: getGroupLevel1 
+[INFO]caseLogMethod.py:73-11:04:37.792 >> Method Name: testCase01_major 
+[INFO]caseLogMethod.py:74-11:04:37.808 >> Test Description: 查看分组下便签 
+[INFO]test_level1.py:37-11:04:37.839 >> STEP:查看分组下便签 
+[INFO]apiRe.py:18-11:04:37.858 >> url: https://note-api.wps.cn/v3/notesvr/web/getnotes/group 
+[INFO]apiRe.py:19-11:04:37.903 >> headers: {"Content-Type": "application/json", "X-user-key": "229478081", "Cookie": "wps_sid=V02SkIJL_aWyToRT_5-ELMLvcJ1PC9c00a9f842c000dad8ec1"} 
+[INFO]apiRe.py:20-11:04:37.939 >> body: {"groupId": "6f60c97323aa8edb576758aff8c8362a"} 
+[INFO]caseLogMethod.py:68-11:04:38.070 >> [94m--------------------CASE START--------------------------- 
+[INFO]caseLogMethod.py:72-11:04:38.108 >> Class Name: getGroupLevel1 
+[INFO]caseLogMethod.py:73-11:04:38.142 >> Method Name: testCase02_input_empty_str_groupId 
+[INFO]caseLogMethod.py:74-11:04:38.174 >> Test Description: 入参校验，校验入参noteId为空字符  
+[INFO]test_level2.py:55-11:04:38.197 >> STEP:查看分组下便签 
+[INFO]apiRe.py:18-11:04:38.251 >> url: https://note-api.wps.cn/v3/notesvr/web/getnotes/group 
+[INFO]apiRe.py:19-11:04:38.292 >> headers: {"Content-Type": "application/json", "X-user-key": "229478081", "Cookie": "wps_sid=V02SkIJL_aWyToRT_5-ELMLvcJ1PC9c00a9f842c000dad8ec1"} 
+[INFO]apiRe.py:20-11:04:38.330 >> body: {"groupId": ""} 
+[INFO]caseLogMethod.py:68-11:04:38.464 >> [94m--------------------CASE START--------------------------- 
+[INFO]caseLogMethod.py:72-11:04:38.489 >> Class Name: getGroupLevel1 
+[INFO]caseLogMethod.py:73-11:04:38.507 >> Method Name: testCase02_input_int_noteId 
+[INFO]caseLogMethod.py:74-11:04:38.529 >> Test Description: 入参校验，校验入参noteId为int类型  
+[INFO]test_level2.py:71-11:04:38.554 >> STEP:新增分组 
+[INFO]apiRe.py:18-11:04:38.634 >> url: https://note-api.wps.cn/v3/notesvr/web/getnotes/group 
+[INFO]apiRe.py:19-11:04:38.708 >> headers: {"Content-Type": "application/json", "X-user-key": "229478081", "Cookie": "wps_sid=V02SkIJL_aWyToRT_5-ELMLvcJ1PC9c00a9f842c000dad8ec1"} 
+[INFO]apiRe.py:20-11:04:38.755 >> body: {"groupId": 1694574278634} 
+[INFO]caseLogMethod.py:68-11:04:38.882 >> [94m--------------------CASE START--------------------------- 
+[INFO]caseLogMethod.py:72-11:04:38.900 >> Class Name: getGroupLevel1 
+[INFO]caseLogMethod.py:73-11:04:38.920 >> Method Name: testCase02_input_must_key_0 
+[INFO]caseLogMethod.py:74-11:04:38.946 >> Test Description: 查看分组下便签 必填项校验 [with dic={'key': 'groupId', 'code': 500}] 
+[INFO]test_level2.py:39-11:04:38.966 >> STEP:查看分组下便签 
+[INFO]apiRe.py:18-11:04:38.995 >> url: https://note-api.wps.cn/v3/notesvr/web/getnotes/group 
+[INFO]apiRe.py:19-11:04:39.035 >> headers: {"Content-Type": "application/json", "X-user-key": "229478081", "Cookie": "wps_sid=V02SkIJL_aWyToRT_5-ELMLvcJ1PC9c00a9f842c000dad8ec1"} 
+[INFO]apiRe.py:20-11:04:39.075 >> body: {} 
+[INFO]caseLogMethod.py:68-11:04:39.265 >> [94m--------------------CASE START--------------------------- 
+[INFO]caseLogMethod.py:72-11:04:39.305 >> Class Name: getGroupLevel1 
+[INFO]caseLogMethod.py:73-11:04:39.348 >> Method Name: testCase01_major 
+[INFO]caseLogMethod.py:74-11:04:39.374 >> Test Description: 获取分组列表 
+[INFO]test_level1.py:37-11:04:39.399 >> STEP:获取分组列表 
+[INFO]apiRe.py:18-11:04:39.446 >> url: https://note-api.wps.cn/v3/notesvr/get/notegroup 
+[INFO]apiRe.py:19-11:04:39.481 >> headers: {"Content-Type": "application/json", "X-user-key": "229478081", "Cookie": "wps_sid=V02SkIJL_aWyToRT_5-ELMLvcJ1PC9c00a9f842c000dad8ec1"} 
+[INFO]apiRe.py:20-11:04:39.510 >> body: {"lastRequestTime": 0, "excludeInValid": "true"} 
+[INFO]caseLogMethod.py:68-11:04:39.676 >> [94m--------------------CASE START--------------------------- 
+[INFO]caseLogMethod.py:72-11:04:39.693 >> Class Name: getNoteLevel1 
+[INFO]caseLogMethod.py:73-11:04:39.723 >> Method Name: testCase01_major 
+[INFO]caseLogMethod.py:74-11:04:39.806 >> Test Description: 上传/更新便签信息主体 
+[INFO]test_level1.py:61-11:04:39.855 >> STEP:上传/更新便签信息主体 
+[INFO]apiRe.py:18-11:04:39.904 >> url: https://note-api.wps.cn/v3/notesvr/set/noteinfo 
+[INFO]apiRe.py:19-11:04:39.957 >> headers: {"Content-Type": "application/json", "X-user-key": "229478081", "Cookie": "wps_sid=V02SkIJL_aWyToRT_5-ELMLvcJ1PC9c00a9f842c000dad8ec1"} 
+[INFO]apiRe.py:20-11:04:40.012 >> body: {"noteId": "1694574279904_test_noteId"} 
+[INFO]caseLogMethod.py:68-11:04:40.226 >> [94m--------------------CASE START--------------------------- 
+[INFO]caseLogMethod.py:72-11:04:40.242 >> Class Name: getNoteLevel1 
+[INFO]caseLogMethod.py:73-11:04:40.260 >> Method Name: testCase02_input_empty_body 
+[INFO]caseLogMethod.py:74-11:04:40.281 >> Test Description: 入参校验，校验入参body为空字符  
+[INFO]test_level2.py:226-11:04:40.297 >> STEP:上传/更新便签信息主体 
+[INFO]apiRe.py:18-11:04:40.324 >> url: https://note-api.wps.cn/v3/notesvr/set/noteinfo 
+[INFO]apiRe.py:19-11:04:40.353 >> headers: {"Content-Type": "application/json", "X-user-key": "229478081", "Cookie": "wps_sid=V02SkIJL_aWyToRT_5-ELMLvcJ1PC9c00a9f842c000dad8ec1"} 
+[INFO]apiRe.py:20-11:04:40.397 >> body: {"noteId": "1694574280323_test_noteId"} 
+[INFO]caseLogMethod.py:68-11:04:40.535 >> [94m--------------------CASE START--------------------------- 
+[INFO]caseLogMethod.py:72-11:04:40.552 >> Class Name: getNoteLevel1 
+[INFO]caseLogMethod.py:73-11:04:40.566 >> Method Name: testCase02_input_empty_str_noteId 
+[INFO]caseLogMethod.py:74-11:04:40.605 >> Test Description: 入参校验，校验入参noteId为空字符  
+[INFO]test_level2.py:130-11:04:40.639 >> STEP:上传/更新便签信息主体 
+[INFO]apiRe.py:18-11:04:40.655 >> url: https://note-api.wps.cn/v3/notesvr/set/noteinfo 
+[INFO]apiRe.py:19-11:04:40.682 >> headers: {"Content-Type": "application/json", "X-user-key": "229478081", "Cookie": "wps_sid=V02SkIJL_aWyToRT_5-ELMLvcJ1PC9c00a9f842c000dad8ec1"} 
+[INFO]apiRe.py:20-11:04:40.732 >> body: {"noteId": "1694574280655_test_noteId"} 
+[INFO]caseLogMethod.py:68-11:05:08.922 >> [94m--------------------CASE START--------------------------- 
+[INFO]caseLogMethod.py:72-11:05:09.531 >> Class Name: getGroupLevel1 
+[INFO]caseLogMethod.py:73-11:05:09.547 >> Method Name: testCase01_major 
+[INFO]caseLogMethod.py:74-11:05:09.564 >> Test Description: 新增分组 
+[INFO]test_level1.py:31-11:05:09.595 >> STEP:新增分组 
+[INFO]apiRe.py:18-11:05:09.611 >> url: https://note-api.wps.cn/v3/notesvr/set/notegroup 
+[INFO]apiRe.py:19-11:05:09.639 >> headers: {"Content-Type": "application/json", "X-user-key": "229478081", "Cookie": "wps_sid=V02SkIJL_aWyToRT_5-ELMLvcJ1PC9c00a9f842c000dad8ec1"} 
+[INFO]apiRe.py:20-11:05:09.655 >> body: {"groupId": "1694574309611_test_groupId", "groupName": "1694574309611_groupName", "order": 0} 
+[INFO]apiRe.py:22-11:05:10.032 >> res code: 200 
+[INFO]apiRe.py:23-11:05:10.056 >> res body: {"responseTime":40,"updateTime":1694574307583} 
+[INFO]caseLogMethod.py:68-11:05:10.104 >> [94m--------------------CASE START--------------------------- 
+[INFO]caseLogMethod.py:72-11:05:10.125 >> Class Name: getGroupLevel1 
+[INFO]caseLogMethod.py:73-11:05:10.165 >> Method Name: testCase02_input_empty_str_groupId 
+[INFO]caseLogMethod.py:74-11:05:10.215 >> Test Description: 入参校验，校验入参noteId为空字符  
+[INFO]test_level2.py:54-11:05:10.254 >> STEP:新增分组 
+[INFO]apiRe.py:18-11:05:10.298 >> url: https://note-api.wps.cn/v3/notesvr/set/notegroup 
+[INFO]apiRe.py:19-11:05:10.351 >> headers: {"Content-Type": "application/json", "X-user-key": "229478081", "Cookie": "wps_sid=V02SkIJL_aWyToRT_5-ELMLvcJ1PC9c00a9f842c000dad8ec1"} 
+[INFO]apiRe.py:20-11:05:10.401 >> body: {"groupId": "", "groupName": "groupNameAddTest", "order": 0} 
+[INFO]apiRe.py:22-11:05:10.635 >> res code: 500 
+[INFO]apiRe.py:23-11:05:10.657 >> res body: {"errorCode":-7,"errorMsg":"参数不合法！"} 
+[INFO]caseLogMethod.py:68-11:05:10.688 >> [94m--------------------CASE START--------------------------- 
+[INFO]caseLogMethod.py:72-11:05:10.708 >> Class Name: getGroupLevel1 
+[INFO]caseLogMethod.py:73-11:05:10.736 >> Method Name: testCase02_input_empty_str_groupName 
+[INFO]caseLogMethod.py:74-11:05:10.756 >> Test Description: 入参校验，校验入参noteId为空字符  
+[INFO]test_level2.py:108-11:05:10.781 >> STEP:新增分组 
+[INFO]apiRe.py:18-11:05:10.797 >> url: https://note-api.wps.cn/v3/notesvr/set/notegroup 
+[INFO]apiRe.py:19-11:05:10.834 >> headers: {"Content-Type": "application/json", "X-user-key": "229478081", "Cookie": "wps_sid=V02SkIJL_aWyToRT_5-ELMLvcJ1PC9c00a9f842c000dad8ec1"} 
+[INFO]apiRe.py:20-11:05:10.854 >> body: {"groupId": "1694574310797_test_groupId", "groupName": "", "order": 0} 
+[INFO]apiRe.py:22-11:05:11.120 >> res code: 500 
+[INFO]apiRe.py:23-11:05:11.143 >> res body: {"errorCode":-7,"errorMsg":"参数不合法！"} 
+[INFO]caseLogMethod.py:68-11:05:11.162 >> [94m--------------------CASE START--------------------------- 
+[INFO]caseLogMethod.py:72-11:05:11.183 >> Class Name: getGroupLevel1 
+[INFO]caseLogMethod.py:73-11:05:11.198 >> Method Name: testCase02_input_int_noteId 
+[INFO]caseLogMethod.py:74-11:05:11.215 >> Test Description: 入参校验，校验入参noteId为int类型  
+[INFO]test_level2.py:144-11:05:11.244 >> STEP:新增分组 
+[INFO]apiRe.py:18-11:05:11.264 >> url: https://note-api.wps.cn/v3/notesvr/set/notegroup 
+[INFO]apiRe.py:19-11:05:11.300 >> headers: {"Content-Type": "application/json", "X-user-key": "229478081", "Cookie": "wps_sid=V02SkIJL_aWyToRT_5-ELMLvcJ1PC9c00a9f842c000dad8ec1"} 
+[INFO]apiRe.py:20-11:05:11.323 >> body: {"groupId": "1694574311264_test_groupId", "groupName": 123, "order": 0} 
+[INFO]apiRe.py:22-11:05:11.640 >> res code: 200 
+[INFO]apiRe.py:23-11:05:11.659 >> res body: {"responseTime":37,"updateTime":1694574309185} 
+[INFO]caseLogMethod.py:68-11:05:11.686 >> [94m--------------------CASE START--------------------------- 
+[INFO]caseLogMethod.py:72-11:05:11.714 >> Class Name: getGroupLevel1 
+[INFO]caseLogMethod.py:73-11:05:11.739 >> Method Name: testCase02_input_must_key_0 
+[INFO]caseLogMethod.py:74-11:05:11.763 >> Test Description: 新增分组 [with dic={'key': 'groupId', 'code': 500}] 
+[INFO]test_level2.py:32-11:05:11.788 >> STEP:新增分组 必填项校验 
+[INFO]apiRe.py:18-11:05:11.810 >> url: https://note-api.wps.cn/v3/notesvr/set/notegroup 
+[INFO]apiRe.py:19-11:05:11.841 >> headers: {"Content-Type": "application/json", "X-user-key": "229478081", "Cookie": "wps_sid=V02SkIJL_aWyToRT_5-ELMLvcJ1PC9c00a9f842c000dad8ec1"} 
+[INFO]apiRe.py:20-11:05:11.863 >> body: {"groupName": "1694574311809_groupName", "order": 0} 
+[INFO]apiRe.py:22-11:05:12.142 >> res code: 500 
+[INFO]apiRe.py:23-11:05:12.168 >> res body: {"errorCode":-7,"errorMsg":"参数不合法！"} 
+[INFO]caseLogMethod.py:68-11:05:12.203 >> [94m--------------------CASE START--------------------------- 
+[INFO]caseLogMethod.py:72-11:05:12.228 >> Class Name: getGroupLevel1 
+[INFO]caseLogMethod.py:73-11:05:12.245 >> Method Name: testCase02_input_must_key_1 
+[INFO]caseLogMethod.py:74-11:05:12.262 >> Test Description: 新增分组 [with dic={'key': 'groupName', 'code': 500}] 
+[INFO]test_level2.py:32-11:05:12.284 >> STEP:新增分组 必填项校验 
+[INFO]apiRe.py:18-11:05:12.309 >> url: https://note-api.wps.cn/v3/notesvr/set/notegroup 
+[INFO]apiRe.py:19-11:05:12.334 >> headers: {"Content-Type": "application/json", "X-user-key": "229478081", "Cookie": "wps_sid=V02SkIJL_aWyToRT_5-ELMLvcJ1PC9c00a9f842c000dad8ec1"} 
+[INFO]apiRe.py:20-11:05:12.351 >> body: {"groupId": "1694574312309_group_id", "order": 0} 
+[INFO]apiRe.py:22-11:05:12.632 >> res code: 500 
+[INFO]apiRe.py:23-11:05:12.655 >> res body: {"errorCode":-7,"errorMsg":"参数不合法！"} 
+[INFO]caseLogMethod.py:68-11:05:12.684 >> [94m--------------------CASE START--------------------------- 
+[INFO]caseLogMethod.py:72-11:05:12.703 >> Class Name: getGroupLevel1 
+[INFO]caseLogMethod.py:73-11:05:12.728 >> Method Name: testCase02_input_special_str_groupName 
+[INFO]caseLogMethod.py:74-11:05:12.741 >> Test Description: 入参校验，校验入参noteId为特殊字符串  
+[INFO]test_level2.py:126-11:05:12.754 >> STEP:新增分组 
+[INFO]apiRe.py:18-11:05:12.778 >> url: https://note-api.wps.cn/v3/notesvr/set/notegroup 
+[INFO]apiRe.py:19-11:05:12.790 >> headers: {"Content-Type": "application/json", "X-user-key": "229478081", "Cookie": "wps_sid=V02SkIJL_aWyToRT_5-ELMLvcJ1PC9c00a9f842c000dad8ec1"} 
+[INFO]apiRe.py:20-11:05:12.816 >> body: {"groupId": "1694574312778_test_groupId", "groupName": "%%$$$", "order": 0} 
+[INFO]apiRe.py:22-11:05:13.078 >> res code: 200 
+[INFO]apiRe.py:23-11:05:13.098 >> res body: {"responseTime":26,"updateTime":1694574310636} 
+[INFO]caseLogMethod.py:68-11:05:13.120 >> [94m--------------------CASE START--------------------------- 
+[INFO]caseLogMethod.py:72-11:05:13.142 >> Class Name: getGroupLevel1 
+[INFO]caseLogMethod.py:73-11:05:13.156 >> Method Name: testCase02_input_special_str_noteId 
+[INFO]caseLogMethod.py:74-11:05:13.178 >> Test Description: 入参校验，校验入参noteId为特殊字符串  
+[INFO]test_level2.py:72-11:05:13.194 >> STEP:新增分组 
+[INFO]apiRe.py:18-11:05:13.215 >> url: https://note-api.wps.cn/v3/notesvr/set/notegroup 
+[INFO]apiRe.py:19-11:05:13.236 >> headers: {"Content-Type": "application/json", "X-user-key": "229478081", "Cookie": "wps_sid=V02SkIJL_aWyToRT_5-ELMLvcJ1PC9c00a9f842c000dad8ec1"} 
+[INFO]apiRe.py:20-11:05:13.251 >> body: {"groupId": "%%%%", "groupName": "groupNameAddTest", "order": 0} 
+[INFO]apiRe.py:22-11:05:13.572 >> res code: 200 
+[INFO]apiRe.py:23-11:05:13.592 >> res body: {"responseTime":33,"updateTime":1694574311100} 
+[STEP]test_level1.py:42-11:05:13.607 >> 初始化清空用户下面分组数据 
+[INFO]apiRe.py:18-11:05:13.626 >> url: https://note-api.wps.cn/v3/notesvr/get/notegroup 
+[INFO]apiRe.py:19-11:05:13.646 >> headers: {"Content-Type": "application/json", "X-user-key": "229478081", "Cookie": "wps_sid=V02SkIJL_aWyToRT_5-ELMLvcJ1PC9c00a9f842c000dad8ec1"} 
+[INFO]apiRe.py:20-11:05:13.663 >> body: {"lastRequestTime": 0, "excludeInValid": "true"} 
+[INFO]apiRe.py:22-11:05:14.126 >> res code: 200 
+[INFO]apiRe.py:23-11:05:14.145 >> res body: {"noteGroups":[{"userId":"229478081","groupId":"1694574309611_test_groupId","groupName":"1694574309611_groupName","order":0,"valid":1,"updateTime":1694574307583},{"userId":"229478081","groupId":"1694574311264_test_groupId","groupName":"123","order":0,"valid":1,"updateTime":1694574309185},{"userId":"229478081","groupId":"1694574312778_test_groupId","groupName":"%%$$$","order":0,"valid":1,"updateTime":1694574310636}],"requestTime":1694574311590} 
+[INFO]apiRe.py:18-11:05:14.165 >> url: http://note-api.wps.cn/v3/notesvr/delete/notegroup 
+[INFO]apiRe.py:19-11:05:14.187 >> headers: {"Content-Type": "application/json", "X-user-key": "229478081", "Cookie": "wps_sid=V02SkIJL_aWyToRT_5-ELMLvcJ1PC9c00a9f842c000dad8ec1"} 
+[INFO]apiRe.py:20-11:05:14.200 >> body: {"groupId": "1694574309611_test_groupId"} 
+[INFO]apiRe.py:22-11:05:14.558 >> res code: 200 
+[INFO]apiRe.py:23-11:05:14.584 >> res body: {"responseTime":71} 
+[INFO]apiRe.py:18-11:05:14.600 >> url: http://note-api.wps.cn/v3/notesvr/delete/notegroup 
+[INFO]apiRe.py:19-11:05:14.620 >> headers: {"Content-Type": "application/json", "X-user-key": "229478081", "Cookie": "wps_sid=V02SkIJL_aWyToRT_5-ELMLvcJ1PC9c00a9f842c000dad8ec1"} 
+[INFO]apiRe.py:20-11:05:14.643 >> body: {"groupId": "1694574311264_test_groupId"} 
+[INFO]apiRe.py:22-11:05:14.963 >> res code: 200 
+[INFO]apiRe.py:23-11:05:14.995 >> res body: {"responseTime":53} 
+[INFO]apiRe.py:18-11:05:15.025 >> url: http://note-api.wps.cn/v3/notesvr/delete/notegroup 
+[INFO]apiRe.py:19-11:05:15.050 >> headers: {"Content-Type": "application/json", "X-user-key": "229478081", "Cookie": "wps_sid=V02SkIJL_aWyToRT_5-ELMLvcJ1PC9c00a9f842c000dad8ec1"} 
+[INFO]apiRe.py:20-11:05:15.080 >> body: {"groupId": "1694574312778_test_groupId"} 
+[INFO]apiRe.py:22-11:05:15.329 >> res code: 200 
+[INFO]apiRe.py:23-11:05:15.350 >> res body: {"responseTime":26} 
+[INFO]caseLogMethod.py:68-11:05:15.377 >> [94m--------------------CASE START--------------------------- 
+[INFO]caseLogMethod.py:72-11:05:15.396 >> Class Name: getGroupLevel1 
+[INFO]caseLogMethod.py:73-11:05:15.423 >> Method Name: testCase01_major 
+[INFO]caseLogMethod.py:74-11:05:15.444 >> Test Description: 删除分组 
+[INFO]test_level1.py:47-11:05:15.460 >> STEP:创建用户1的分组数据 
+[INFO]test_level1.py:52-11:05:15.637 >> 删除分组 
+[INFO]apiRe.py:18-11:05:15.678 >> url: https://note-api.wps.cn/v3/notesvr/delete/notegroup 
+[INFO]apiRe.py:19-11:05:15.712 >> headers: {"Content-Type": "application/json", "X-user-key": "229478081", "Cookie": "wps_sid=V02SkIJL_aWyToRT_5-ELMLvcJ1PC9c00a9f842c000dad8ec1"} 
+[INFO]apiRe.py:20-11:05:15.745 >> body: {"groupId": "1694574315490_group_id0"} 
+[INFO]apiRe.py:22-11:05:15.999 >> res code: 200 
+[INFO]apiRe.py:23-11:05:16.015 >> res body: {"responseTime":38} 
+[INFO]test_level1.py:66-11:05:16.042 >> STEP:获取分组列表 
+[INFO]apiRe.py:18-11:05:16.055 >> url: https://note-api.wps.cn/v3/notesvr/get/notegroup 
+[INFO]apiRe.py:19-11:05:16.084 >> headers: {"Content-Type": "application/json", "X-user-key": "229478081", "Cookie": "wps_sid=V02SkIJL_aWyToRT_5-ELMLvcJ1PC9c00a9f842c000dad8ec1"} 
+[INFO]apiRe.py:20-11:05:16.099 >> body: {"lastRequestTime": 0, "excludeInValid": "true"} 
+[INFO]apiRe.py:22-11:05:16.357 >> res code: 200 
+[INFO]apiRe.py:23-11:05:16.383 >> res body: {"noteGroups":[],"requestTime":1694574313919} 
+[INFO]caseLogMethod.py:68-11:05:16.402 >> [94m--------------------CASE START--------------------------- 
+[INFO]caseLogMethod.py:72-11:05:16.424 >> Class Name: getGroupLevel1 
+[INFO]caseLogMethod.py:73-11:05:16.439 >> Method Name: testCase02_input_empty_str_groupId 
+[INFO]caseLogMethod.py:74-11:05:16.457 >> Test Description: 入参校验，校验入参noteId为空字符  
+[INFO]test_level2.py:55-11:05:16.477 >> STEP:删除分组 
+[INFO]apiRe.py:18-11:05:16.505 >> url: https://note-api.wps.cn/v3/notesvr/delete/notegroup 
+[INFO]apiRe.py:19-11:05:16.531 >> headers: {"Content-Type": "application/json", "X-user-key": "229478081", "Cookie": "wps_sid=V02SkIJL_aWyToRT_5-ELMLvcJ1PC9c00a9f842c000dad8ec1"} 
+[INFO]apiRe.py:20-11:05:16.546 >> body: {"groupId": ""} 
+[INFO]apiRe.py:22-11:05:16.784 >> res code: 500 
+[INFO]apiRe.py:23-11:05:16.803 >> res body: {"errorCode":-7,"errorMsg":"参数不合法！"} 
+[INFO]caseLogMethod.py:68-11:05:16.827 >> [94m--------------------CASE START--------------------------- 
+[INFO]caseLogMethod.py:72-11:05:16.844 >> Class Name: getGroupLevel1 
+[INFO]caseLogMethod.py:73-11:05:16.861 >> Method Name: testCase02_input_int_noteId 
+[INFO]caseLogMethod.py:74-11:05:16.883 >> Test Description: 入参校验，校验入参noteId为int类型  
+[INFO]test_level2.py:71-11:05:16.897 >> STEP:删除分组 
+[INFO]apiRe.py:18-11:05:16.922 >> url: https://note-api.wps.cn/v3/notesvr/delete/notegroup 
+[INFO]apiRe.py:19-11:05:16.939 >> headers: {"Content-Type": "application/json", "X-user-key": "229478081", "Cookie": "wps_sid=V02SkIJL_aWyToRT_5-ELMLvcJ1PC9c00a9f842c000dad8ec1"} 
+[INFO]apiRe.py:20-11:05:16.953 >> body: {"groupId": 1694574316921} 
+[INFO]apiRe.py:22-11:05:17.219 >> res code: 200 
+[INFO]apiRe.py:23-11:05:17.243 >> res body: {"responseTime":24} 
+[INFO]caseLogMethod.py:68-11:05:17.262 >> [94m--------------------CASE START--------------------------- 
+[INFO]caseLogMethod.py:72-11:05:17.287 >> Class Name: getGroupLevel1 
+[INFO]caseLogMethod.py:73-11:05:17.339 >> Method Name: testCase02_input_must_key_0 
+[INFO]caseLogMethod.py:74-11:05:17.358 >> Test Description: 删除分组 [with dic={'key': 'groupId', 'code': 500}] 
+[INFO]test_level2.py:38-11:05:17.380 >> STEP:删除分组 必填项校验 
+[INFO]apiRe.py:18-11:05:17.420 >> url: https://note-api.wps.cn/v3/notesvr/delete/notegroup 
+[INFO]apiRe.py:19-11:05:17.466 >> headers: {"Content-Type": "application/json", "X-user-key": "229478081", "Cookie": "wps_sid=V02SkIJL_aWyToRT_5-ELMLvcJ1PC9c00a9f842c000dad8ec1"} 
+[INFO]apiRe.py:20-11:05:17.506 >> body: {} 
+[INFO]apiRe.py:22-11:05:17.795 >> res code: 500 
+[INFO]apiRe.py:23-11:05:17.815 >> res body: {"errorCode":-7,"errorMsg":"参数不合法！"} 
+[INFO]caseLogMethod.py:68-11:05:17.845 >> [94m--------------------CASE START--------------------------- 
+[INFO]caseLogMethod.py:72-11:05:17.862 >> Class Name: getGroupLevel1 
+[INFO]caseLogMethod.py:73-11:05:17.890 >> Method Name: testCase01_major 
+[INFO]caseLogMethod.py:74-11:05:17.908 >> Test Description: 查看分组下便签 
+[INFO]test_level1.py:37-11:05:17.928 >> STEP:查看分组下便签 
+[INFO]apiRe.py:18-11:05:17.942 >> url: https://note-api.wps.cn/v3/notesvr/web/getnotes/group 
+[INFO]apiRe.py:19-11:05:17.961 >> headers: {"Content-Type": "application/json", "X-user-key": "229478081", "Cookie": "wps_sid=V02SkIJL_aWyToRT_5-ELMLvcJ1PC9c00a9f842c000dad8ec1"} 
+[INFO]apiRe.py:20-11:05:17.992 >> body: {"groupId": "6f60c97323aa8edb576758aff8c8362a"} 
+[INFO]apiRe.py:22-11:05:18.243 >> res code: 200 
+[INFO]apiRe.py:23-11:05:18.260 >> res body: {"responseTime":0,"webNotes":[]} 
+[INFO]caseLogMethod.py:68-11:05:18.294 >> [94m--------------------CASE START--------------------------- 
+[INFO]caseLogMethod.py:72-11:05:18.317 >> Class Name: getGroupLevel1 
+[INFO]caseLogMethod.py:73-11:05:18.348 >> Method Name: testCase02_input_empty_str_groupId 
+[INFO]caseLogMethod.py:74-11:05:18.373 >> Test Description: 入参校验，校验入参noteId为空字符  
+[INFO]test_level2.py:55-11:05:18.403 >> STEP:查看分组下便签 
+[INFO]apiRe.py:18-11:05:18.439 >> url: https://note-api.wps.cn/v3/notesvr/web/getnotes/group 
+[INFO]apiRe.py:19-11:05:18.473 >> headers: {"Content-Type": "application/json", "X-user-key": "229478081", "Cookie": "wps_sid=V02SkIJL_aWyToRT_5-ELMLvcJ1PC9c00a9f842c000dad8ec1"} 
+[INFO]apiRe.py:20-11:05:18.504 >> body: {"groupId": ""} 
