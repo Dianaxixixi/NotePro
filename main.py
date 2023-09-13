@@ -5,7 +5,7 @@ import os
 DIR = os.path.dirname(os.path.abspath(__file__))
 testLoader = unittest.TestLoader()
 
-Environ = "Online"  # 线上 Online 测试环境 Offline
+Environ = "onLine"  # 线上 Online 测试环境 Offline
 
 
 def run(test_suite):
